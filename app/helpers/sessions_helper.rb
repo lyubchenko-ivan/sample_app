@@ -11,7 +11,7 @@ module SessionsHelper
   end
 
   # true,  если пользователь зареган
-  def log_in?
+  def logged_in?
     !current_user.nil?
   end
 end
